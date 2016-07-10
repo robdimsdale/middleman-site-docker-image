@@ -31,4 +31,4 @@ RUN /opt/rubies/ruby-2.2.2/bin/gem install bundler --no-rdoc --no-ri
 RUN chmod -R 777 /opt/rubies/
 
 # Install CF CLI
-RUN curl http://go-cli.s3-website-us-east-1.amazonaws.com/releases/v6.12.2/cf-linux-amd64.tgz | tar xvz -C /bin
+RUN curl https://s3.amazonaws.com/go-cli/releases/v6.20.0/cf-cli_6.20.0_linux_x86-64.tgz | tar xvz -C /bin
